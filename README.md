@@ -1,6 +1,10 @@
 # CDF-2025
 Github de la Coupe de France de Robotique, objectif arriver premier et humilier INSA Lyon !!!!!!!!!
 
+#REGLEMENTS
+https://www.coupederobotique.fr/accueil/le-concours/reglement-2025/
+https://www.coupederobotique.fr/wp-content/uploads/Eurobot2025_Rules.pdf
+
 #DIAPO 
 [https://enseafr-my.sharepoint.com/:p:/g/personal/antoine_lemarignier_ensea_fr/Eb2eWKZeK-NNrEKdino8REcB281sSVFofJ1WQgk0IBzqbg?e=ZdGJZ5](https://enseafr-my.sharepoint.com/:p:/g/personal/antoine_lemarignier_ensea_fr/ESafam9fs7ZCg727WFCmVboB-b12O3MPg7kT_spCKCZYLA?e=d9OOJI)
 
@@ -11,7 +15,7 @@ https://cad.onshape.com/documents/e7dd6126290aaac8861c9b96/w/d5c385b6723083ea50e
 ## Liste des participants :
 - Lorenzo ROMEO
 - Antoine LEMARIGNER
-- Mateo GOMEZ
+- Mateo GOMES
 - Nathan BAINARD
 - Ewan ZAHRA-THENAULT
 - Khalid ZOUHAIR
