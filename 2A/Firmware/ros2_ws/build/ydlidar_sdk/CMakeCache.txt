@@ -254,8 +254,17 @@ SDK_INCS:STRING=
 //SDK required libraries
 SDK_LIBS:STRING=pthread;rt
 
+//Path to a file.
+SWIG_DIR:PATH=/usr/share/swig4.0
+
 //Path to a program.
-SWIG_EXECUTABLE:FILEPATH=SWIG_EXECUTABLE-NOTFOUND
+SWIG_EXECUTABLE:FILEPATH=/usr/bin/swig4.0
+
+//Swig version
+SWIG_VERSION:STRING=4.0.2
+
+//Dependencies for the target
+_ydlidar_LIB_DEPENDS:STATIC=general;/usr/lib/aarch64-linux-gnu/libpython3.10.so;general;ydlidar_sdk;
 
 //Value Computed by CMake
 ydlidar_sdk_BINARY_DIR:STATIC=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk
@@ -267,7 +276,7 @@ ydlidar_sdk_IS_TOP_LEVEL:STATIC=ON
 ydlidar_sdk_LIB_DEPENDS:STATIC=general;pthread;general;rt;
 
 //Value Computed by CMake
-ydlidar_sdk_SOURCE_DIR:STATIC=/home/carpe-bleue/ros2_ws/src/ydlidar_sdk
+ydlidar_sdk_SOURCE_DIR:STATIC=/home/carpe-bleue/ros2_ws/src/YDLidar-SDK
 
 //Value Computed by CMake
 ydlidar_test_BINARY_DIR:STATIC=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples
@@ -276,7 +285,7 @@ ydlidar_test_BINARY_DIR:STATIC=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examp
 ydlidar_test_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
-ydlidar_test_SOURCE_DIR:STATIC=/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/examples
+ydlidar_test_SOURCE_DIR:STATIC=/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/examples
 
 
 ########################
@@ -367,7 +376,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/carpe-bleue/ros2_ws/src/ydlidar_sdk
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/carpe-bleue/ros2_ws/src/YDLidar-SDK
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -387,7 +396,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=13
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=15
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -438,6 +447,8 @@ FIND_PACKAGE_MESSAGE_DETAILS_GTest:INTERNAL=[/usr/lib/aarch64-linux-gnu/cmake/GT
 FIND_PACKAGE_MESSAGE_DETAILS_PythonInterp:INTERNAL=[/usr/bin/python3.10][v3.10.12()]
 //Details about finding PythonLibs
 FIND_PACKAGE_MESSAGE_DETAILS_PythonLibs:INTERNAL=[/usr/lib/aarch64-linux-gnu/libpython3.10.so][/usr/include/python3.10][v3.10.12()]
+//Details about finding SWIG
+FIND_PACKAGE_MESSAGE_DETAILS_SWIG:INTERNAL=[/usr/bin/swig4.0][/usr/share/swig4.0][c ][v4.0.2()]
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_INCLUDE_DIR
@@ -446,8 +457,12 @@ PYTHON_INCLUDE_DIR-ADVANCED:INTERNAL=1
 PYTHON_LIBRARY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: PYTHON_LIBRARY_DEBUG
 PYTHON_LIBRARY_DEBUG-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SWIG_DIR
+SWIG_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: SWIG_EXECUTABLE
 SWIG_EXECUTABLE-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: SWIG_VERSION
+SWIG_VERSION-ADVANCED:INTERNAL=1
 //All cmake targets for which optimization can be suppressed
 all_posix_cmake_targets:INTERNAL=ydlidar_sdk
 

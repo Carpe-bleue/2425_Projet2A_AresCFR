@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/carpe-bleue/ros2_ws/src/ydlidar_sdk
+CMAKE_SOURCE_DIR = /home/carpe-bleue/ros2_ws/src/YDLidar-SDK
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/carpe-bleue/ros2_ws/build/ydlidar_sdk
@@ -70,18 +70,18 @@ include examples/CMakeFiles/tri_restart.dir/progress.make
 include examples/CMakeFiles/tri_restart.dir/flags.make
 
 examples/CMakeFiles/tri_restart.dir/tri_restart.cpp.o: examples/CMakeFiles/tri_restart.dir/flags.make
-examples/CMakeFiles/tri_restart.dir/tri_restart.cpp.o: /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/examples/tri_restart.cpp
+examples/CMakeFiles/tri_restart.dir/tri_restart.cpp.o: /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/examples/tri_restart.cpp
 examples/CMakeFiles/tri_restart.dir/tri_restart.cpp.o: examples/CMakeFiles/tri_restart.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object examples/CMakeFiles/tri_restart.dir/tri_restart.cpp.o"
-	cd /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/CMakeFiles/tri_restart.dir/tri_restart.cpp.o -MF CMakeFiles/tri_restart.dir/tri_restart.cpp.o.d -o CMakeFiles/tri_restart.dir/tri_restart.cpp.o -c /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/examples/tri_restart.cpp
+	cd /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT examples/CMakeFiles/tri_restart.dir/tri_restart.cpp.o -MF CMakeFiles/tri_restart.dir/tri_restart.cpp.o.d -o CMakeFiles/tri_restart.dir/tri_restart.cpp.o -c /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/examples/tri_restart.cpp
 
 examples/CMakeFiles/tri_restart.dir/tri_restart.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tri_restart.dir/tri_restart.cpp.i"
-	cd /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/examples/tri_restart.cpp > CMakeFiles/tri_restart.dir/tri_restart.cpp.i
+	cd /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/examples/tri_restart.cpp > CMakeFiles/tri_restart.dir/tri_restart.cpp.i
 
 examples/CMakeFiles/tri_restart.dir/tri_restart.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tri_restart.dir/tri_restart.cpp.s"
-	cd /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/examples/tri_restart.cpp -o CMakeFiles/tri_restart.dir/tri_restart.cpp.s
+	cd /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/examples/tri_restart.cpp -o CMakeFiles/tri_restart.dir/tri_restart.cpp.s
 
 # Object files for target tri_restart
 tri_restart_OBJECTS = \
@@ -106,6 +106,6 @@ examples/CMakeFiles/tri_restart.dir/clean:
 .PHONY : examples/CMakeFiles/tri_restart.dir/clean
 
 examples/CMakeFiles/tri_restart.dir/depend:
-	cd /home/carpe-bleue/ros2_ws/build/ydlidar_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carpe-bleue/ros2_ws/src/ydlidar_sdk /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/examples /home/carpe-bleue/ros2_ws/build/ydlidar_sdk /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples/CMakeFiles/tri_restart.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/carpe-bleue/ros2_ws/build/ydlidar_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carpe-bleue/ros2_ws/src/YDLidar-SDK /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/examples /home/carpe-bleue/ros2_ws/build/ydlidar_sdk /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples/CMakeFiles/tri_restart.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/tri_restart.dir/depend
 

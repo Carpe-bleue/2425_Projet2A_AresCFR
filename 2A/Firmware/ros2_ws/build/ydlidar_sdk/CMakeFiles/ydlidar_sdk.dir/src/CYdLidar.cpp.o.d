@@ -1,5 +1,5 @@
 CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o: \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/CYdLidar.cpp \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/CYdLidar.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/map \
  /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_algobase.h \
@@ -102,15 +102,15 @@ CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o: \
  /usr/include/c++/11/bits/functional_hash.h \
  /usr/include/c++/11/bits/hash_bytes.h /usr/include/c++/11/bits/refwrap.h \
  /usr/include/c++/11/bits/std_function.h /usr/include/c++/11/typeinfo \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/CYdLidar.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/base/utils.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/common/ydlidar_def.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/CYdLidar.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/base/utils.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/common/ydlidar_def.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/aarch64-linux-gnu/bits/wchar.h \
  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
  /usr/include/c++/11/stdlib.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/base/typedef.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/common/DriverInterface.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/base/typedef.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/common/DriverInterface.h \
  /usr/include/c++/11/thread /usr/include/c++/11/bits/std_thread.h \
  /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
  /usr/include/c++/11/bits/cxxabi_init_exception.h \
@@ -145,8 +145,8 @@ CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o: \
  /usr/include/linux/errno.h /usr/include/aarch64-linux-gnu/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
  /usr/include/aarch64-linux-gnu/bits/types/error_t.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/base/v8stdint.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/base/datatype.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/base/v8stdint.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/base/datatype.h \
  /usr/include/stdio.h \
  /usr/include/aarch64-linux-gnu/bits/types/__fpos_t.h \
  /usr/include/aarch64-linux-gnu/bits/types/__fpos64_t.h \
@@ -220,25 +220,25 @@ CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/statx-generic.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_statx_timestamp.h \
  /usr/include/aarch64-linux-gnu/bits/types/struct_statx.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/base/typedef.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/base/ydlidar.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/base/thread.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/base/v8stdint.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/base/timer.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/base/typedef.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/base/ydlidar.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/base/thread.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/base/v8stdint.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/base/timer.h \
  /usr/include/assert.h /usr/include/inttypes.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/base/locker.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/base/datatype.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/common/ydlidar_protocol.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/base/locker.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/base/datatype.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/common/ydlidar_protocol.h \
  /usr/include/c++/11/vector /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/common/ydlidar_datatype.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/common/ydlidar_def.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/common/ydlidar_datatype.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/common/ydlidar_def.h \
  /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/ydlidar_config.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/math/angles.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/serial/common.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/serial/impl/unix/unix.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/math/angles.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/serial/common.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/serial/impl/unix/unix.h \
  /usr/include/c++/11/iostream /usr/include/c++/11/ostream \
  /usr/include/c++/11/ios /usr/include/c++/11/bits/ios_base.h \
  /usr/include/c++/11/bits/locale_classes.h \
@@ -267,7 +267,7 @@ CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o: \
  /usr/include/asm-generic/ioctl.h \
  /usr/include/aarch64-linux-gnu/bits/ioctl-types.h \
  /usr/include/aarch64-linux-gnu/sys/ttydefaults.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/serial/impl/unix/unix_serial.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/serial/impl/unix/unix_serial.h \
  /usr/include/termios.h /usr/include/aarch64-linux-gnu/bits/termios.h \
  /usr/include/aarch64-linux-gnu/bits/termios-struct.h \
  /usr/include/aarch64-linux-gnu/bits/termios-c_cc.h \
@@ -278,11 +278,11 @@ CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o: \
  /usr/include/aarch64-linux-gnu/bits/termios-c_lflag.h \
  /usr/include/aarch64-linux-gnu/bits/termios-tcflow.h \
  /usr/include/aarch64-linux-gnu/bits/termios-misc.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/serial/serial.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/serial/serial.h \
  /usr/include/c++/11/cstring /usr/include/c++/11/sstream \
  /usr/include/c++/11/bits/sstream.tcc \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/common/ChannelDevice.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/common/ydlidar_help.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/common/ChannelDevice.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/common/ydlidar_help.h \
  /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets_nonio.h \
  /usr/include/aarch64-linux-gnu/c++/11/bits/time_members.h \
@@ -290,15 +290,15 @@ CMakeFiles/ydlidar_sdk.dir/src/CYdLidar.cpp.o: \
  /usr/include/libintl.h /usr/include/c++/11/bits/codecvt.h \
  /usr/include/c++/11/bits/locale_facets_nonio.tcc \
  /usr/include/c++/11/bits/locale_conv.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/YDlidarDriver.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/YDlidarDriver.h \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/ETLidarDriver.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/GSLidarDriver.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/ETLidarDriver.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/GSLidarDriver.h \
  /usr/include/c++/11/list /usr/include/c++/11/bits/stl_list.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
  /usr/include/c++/11/bits/list.tcc \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/SDMLidarDriver.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/DTSLidarDriver.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/TiaLidarDriver.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/json/cJSON.h
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/SDMLidarDriver.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/DTSLidarDriver.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/TiaLidarDriver.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/json/cJSON.h

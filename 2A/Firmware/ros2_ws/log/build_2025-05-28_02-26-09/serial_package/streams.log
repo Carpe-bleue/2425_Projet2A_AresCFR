@@ -1,0 +1,77 @@
+[0.063s] Invoking command in '/home/carpe-bleue/ros2_ws/build/serial_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/carpe-bleue/ros2_ws/build/serial_package -- -j4 -l4
+[0.306s] [ 50%] Built target UART_Node
+[0.310s] [100%] Built target OdometryNode
+[0.355s] Invoked command in '/home/carpe-bleue/ros2_ws/build/serial_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/carpe-bleue/ros2_ws/build/serial_package -- -j4 -l4
+[0.396s] Invoking command in '/home/carpe-bleue/ros2_ws/build/serial_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/carpe-bleue/ros2_ws/build/serial_package
+[0.424s] -- Install configuration: ""
+[0.426s] -- Execute custom install script
+[0.427s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/UART_Node
+[0.428s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/OdometryNode
+[0.430s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/screen_reader.py
+[0.431s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/bag_player_node.py
+[0.432s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/bag_listener.py
+[0.432s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/serial_node.py
+[0.433s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/serial_node_2.py
+[0.434s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/serial_node_3.py
+[0.435s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/serial_node_4.py
+[0.436s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/serial_node_5.py
+[0.437s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/serial_node_6.py
+[0.438s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/test_uart.py
+[0.439s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/test_uart_lidar.py
+[0.439s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/test_uart_lidar2.py
+[0.440s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/robot_control_node.py
+[0.441s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/robot_control_node_2.py
+[0.442s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/robot_control_node_3.py
+[0.442s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/robot_control_node_4.py
+[0.444s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/robot_control_node_5.py
+[0.445s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/robot_control_node_6.py
+[0.446s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/robot_control_node_7.py
+[0.447s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/keyboard_control.py
+[0.448s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/bagfile_stm32.py
+[0.449s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/launch_serial_lidar.py
+[0.449s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/launch_robot.py
+[0.452s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/keyboard_test.py
+[0.453s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/keyboard_test_2.py
+[0.454s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/keyboard_lidar_free.py
+[0.454s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/bag_listener_2.py
+[0.455s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/control_keyboard.py
+[0.457s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/bag_playback.py
+[0.458s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/merged_node.py
+[0.459s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/emergency_stop.py
+[0.461s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/launch/OdometryNode.launch.py
+[0.463s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/launch/UART_Node.launch.py
+[0.464s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/launch/bag_launch.launch.py
+[0.466s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/launch/combined_launch.py
+[0.468s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/launch/launch_robot.py
+[0.470s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/launch/launch_serial_lidar.py
+[0.472s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/0/0_0.db3
+[0.473s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/0/metadata.yaml
+[0.473s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/1/1_0.db3
+[0.474s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/1/metadata.yaml
+[0.476s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/2/2_0.db3
+[0.477s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/2/metadata.yaml
+[0.478s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/3/3_0.db3
+[0.479s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/3/metadata.yaml
+[0.480s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/4/4_0.db3
+[0.481s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/4/metadata.yaml
+[0.483s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/5/5_0.db3
+[0.484s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/5/metadata.yaml
+[0.488s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/ament_index/resource_index/package_run_dependencies/serial_package
+[0.489s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/ament_index/resource_index/parent_prefix_path/serial_package
+[0.490s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/environment/ament_prefix_path.sh
+[0.491s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/environment/ament_prefix_path.dsv
+[0.492s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/environment/path.sh
+[0.492s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/environment/path.dsv
+[0.493s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/local_setup.bash
+[0.493s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/local_setup.sh
+[0.494s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/local_setup.zsh
+[0.494s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/local_setup.dsv
+[0.495s] -- Symlinking: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/package.dsv
+[0.523s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/ament_index/resource_index/packages/serial_package
+[0.524s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/cmake/serial_packageConfig.cmake
+[0.524s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/cmake/serial_packageConfig-version.cmake
+[0.526s] -- Up-to-date symlink: /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/package.xml
+[0.527s] -- Up-to-date: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/tirette
+[0.528s] -- Up-to-date: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/bag_player_node
+[0.529s] -- Up-to-date: /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/bag_listener
+[0.611s] Invoked command in '/home/carpe-bleue/ros2_ws/build/serial_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/carpe-bleue/ros2_ws/build/serial_package

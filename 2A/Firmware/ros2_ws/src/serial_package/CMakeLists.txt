@@ -64,6 +64,8 @@ install(PROGRAMS
   src/bag_listener_2.py
   src/control_keyboard.py
   src/bag_playback.py
+  src/merged_node.py
+  src/emergency_stop.py
   DESTINATION lib/${PROJECT_NAME}
 )
 

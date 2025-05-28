@@ -29,6 +29,8 @@
 /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/bag_listener_2.py
 /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/control_keyboard.py
 /home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/bag_playback.py
+/home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/merged_node.py
+/home/carpe-bleue/ros2_ws/install/serial_package/lib/serial_package/emergency_stop.py
 /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/launch/OdometryNode.launch.py
 /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/launch/UART_Node.launch.py
 /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/launch/bag_launch.launch.py
@@ -39,6 +41,8 @@
 /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/0/metadata.yaml
 /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/1/1_0.db3
 /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/1/metadata.yaml
+/home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/2/2_0.db3
+/home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/2/metadata.yaml
 /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/3/3_0.db3
 /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/3/metadata.yaml
 /home/carpe-bleue/ros2_ws/install/serial_package/share/serial_package/bags/4/4_0.db3

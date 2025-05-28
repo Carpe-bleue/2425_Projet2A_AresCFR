@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/examples/tri_test.cpp" "examples/CMakeFiles/tri_test.dir/tri_test.cpp.o" "gcc" "examples/CMakeFiles/tri_test.dir/tri_test.cpp.o.d"
+  "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/examples/tri_test.cpp" "examples/CMakeFiles/tri_test.dir/tri_test.cpp.o" "gcc" "examples/CMakeFiles/tri_test.dir/tri_test.cpp.o.d"
   )
 
 # Targets to which this target links.

@@ -1,5 +1,5 @@
 examples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o: \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/examples/lidar_c_api_test.c \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/examples/lidar_c_api_test.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/aarch64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -58,11 +58,11 @@ examples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o: \
  /usr/include/aarch64-linux-gnu/bits/getopt_posix.h \
  /usr/include/aarch64-linux-gnu/bits/getopt_core.h \
  /usr/include/aarch64-linux-gnu/bits/unistd_ext.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/ydlidar_sdk.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/ydlidar_sdk.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdbool.h \
  /usr/lib/gcc/aarch64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/aarch64-linux-gnu/bits/wchar.h \
  /usr/include/aarch64-linux-gnu/bits/stdint-uintn.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/common/ydlidar_def.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/base/typedef.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/./core/base/utils.h
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/common/ydlidar_def.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/base/typedef.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/./core/base/utils.h

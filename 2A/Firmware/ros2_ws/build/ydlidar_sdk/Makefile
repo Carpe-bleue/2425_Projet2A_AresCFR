@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/carpe-bleue/ros2_ws/src/ydlidar_sdk
+CMAKE_SOURCE_DIR = /home/carpe-bleue/ros2_ws/src/YDLidar-SDK
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/carpe-bleue/ros2_ws/build/ydlidar_sdk
@@ -411,6 +411,32 @@ lidar_c_api_test: cmake_check_build_system
 lidar_c_api_test/fast:
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/lidar_c_api_test.dir/build.make examples/CMakeFiles/lidar_c_api_test.dir/build
 .PHONY : lidar_c_api_test/fast
+
+#=============================================================================
+# Target rules for targets named _ydlidar
+
+# Build rule for target.
+_ydlidar: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 _ydlidar
+.PHONY : _ydlidar
+
+# fast build rule for target.
+_ydlidar/fast:
+	$(MAKE) $(MAKESILENT) -f python/CMakeFiles/_ydlidar.dir/build.make python/CMakeFiles/_ydlidar.dir/build
+.PHONY : _ydlidar/fast
+
+#=============================================================================
+# Target rules for targets named ydlidar_swig_compilation
+
+# Build rule for target.
+ydlidar_swig_compilation: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ydlidar_swig_compilation
+.PHONY : ydlidar_swig_compilation
+
+# fast build rule for target.
+ydlidar_swig_compilation/fast:
+	$(MAKE) $(MAKESILENT) -f python/CMakeFiles/ydlidar_swig_compilation.dir/build.make python/CMakeFiles/ydlidar_swig_compilation.dir/build
+.PHONY : ydlidar_swig_compilation/fast
 
 core/base/timer.o: core/base/timer.cpp.o
 .PHONY : core/base/timer.o
@@ -908,6 +934,8 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... uninstall"
+	@echo "... ydlidar_swig_compilation"
+	@echo "... _ydlidar"
 	@echo "... et_test"
 	@echo "... gs_ota"
 	@echo "... gs_test"

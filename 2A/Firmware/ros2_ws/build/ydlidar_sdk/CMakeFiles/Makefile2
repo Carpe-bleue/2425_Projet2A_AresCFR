@@ -54,7 +54,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/carpe-bleue/ros2_ws/src/ydlidar_sdk
+CMAKE_SOURCE_DIR = /home/carpe-bleue/ros2_ws/src/YDLidar-SDK
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/carpe-bleue/ros2_ws/build/ydlidar_sdk
@@ -67,12 +67,14 @@ all: CMakeFiles/ydlidar_sdk.dir/all
 all: core/all
 all: src/all
 all: examples/all
+all: python/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: core/preinstall
 preinstall: src/preinstall
 preinstall: examples/preinstall
+preinstall: python/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -81,6 +83,7 @@ clean: CMakeFiles/uninstall.dir/clean
 clean: core/clean
 clean: src/clean
 clean: examples/clean
+clean: python/clean
 .PHONY : clean
 
 #=============================================================================
@@ -277,6 +280,40 @@ examples/clean: examples/CMakeFiles/lidar_c_api_test.dir/clean
 .PHONY : examples/clean
 
 #=============================================================================
+# Directory level rules for directory python
+
+# Recursive "all" directory target.
+python/all: python/CMakeFiles/_ydlidar.dir/all
+python/all: python/examples/all
+.PHONY : python/all
+
+# Recursive "preinstall" directory target.
+python/preinstall: python/examples/preinstall
+.PHONY : python/preinstall
+
+# Recursive "clean" directory target.
+python/clean: python/CMakeFiles/_ydlidar.dir/clean
+python/clean: python/CMakeFiles/ydlidar_swig_compilation.dir/clean
+python/clean: python/examples/clean
+	$(CMAKE_COMMAND) -P python/CMakeFiles/cmake_directory_clean.cmake
+.PHONY : python/clean
+
+#=============================================================================
+# Directory level rules for directory python/examples
+
+# Recursive "all" directory target.
+python/examples/all:
+.PHONY : python/examples/all
+
+# Recursive "preinstall" directory target.
+python/examples/preinstall:
+.PHONY : python/examples/preinstall
+
+# Recursive "clean" directory target.
+python/examples/clean:
+.PHONY : python/examples/clean
+
+#=============================================================================
 # Directory level rules for directory src
 
 # Recursive "all" directory target.
@@ -313,7 +350,7 @@ src/filters/clean:
 CMakeFiles/ydlidar_sdk.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ydlidar_sdk.dir/build.make CMakeFiles/ydlidar_sdk.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ydlidar_sdk.dir/build.make CMakeFiles/ydlidar_sdk.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51 "Built target ydlidar_sdk"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50,51,52,53 "Built target ydlidar_sdk"
 .PHONY : CMakeFiles/ydlidar_sdk.dir/all
 
 # Build rule for subdir invocation for target.
@@ -365,7 +402,7 @@ CMakeFiles/uninstall.dir/clean:
 examples/CMakeFiles/et_test.dir/all: CMakeFiles/ydlidar_sdk.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/et_test.dir/build.make examples/CMakeFiles/et_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/et_test.dir/build.make examples/CMakeFiles/et_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=1,2 "Built target et_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=3,4 "Built target et_test"
 .PHONY : examples/CMakeFiles/et_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -391,7 +428,7 @@ examples/CMakeFiles/et_test.dir/clean:
 examples/CMakeFiles/gs_ota.dir/all: CMakeFiles/ydlidar_sdk.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/gs_ota.dir/build.make examples/CMakeFiles/gs_ota.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/gs_ota.dir/build.make examples/CMakeFiles/gs_ota.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=3,4 "Built target gs_ota"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=5,6 "Built target gs_ota"
 .PHONY : examples/CMakeFiles/gs_ota.dir/all
 
 # Build rule for subdir invocation for target.
@@ -417,7 +454,7 @@ examples/CMakeFiles/gs_ota.dir/clean:
 examples/CMakeFiles/gs_test.dir/all: CMakeFiles/ydlidar_sdk.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/gs_test.dir/build.make examples/CMakeFiles/gs_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/gs_test.dir/build.make examples/CMakeFiles/gs_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=5,6 "Built target gs_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=7,8 "Built target gs_test"
 .PHONY : examples/CMakeFiles/gs_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -443,7 +480,7 @@ examples/CMakeFiles/gs_test.dir/clean:
 examples/CMakeFiles/gs_test2.dir/all: CMakeFiles/ydlidar_sdk.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/gs_test2.dir/build.make examples/CMakeFiles/gs_test2.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/gs_test2.dir/build.make examples/CMakeFiles/gs_test2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=7,8 "Built target gs_test2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=9,10 "Built target gs_test2"
 .PHONY : examples/CMakeFiles/gs_test2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -469,7 +506,7 @@ examples/CMakeFiles/gs_test2.dir/clean:
 examples/CMakeFiles/scl_test.dir/all: CMakeFiles/ydlidar_sdk.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/scl_test.dir/build.make examples/CMakeFiles/scl_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/scl_test.dir/build.make examples/CMakeFiles/scl_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=11,12 "Built target scl_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=13,14 "Built target scl_test"
 .PHONY : examples/CMakeFiles/scl_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -495,7 +532,7 @@ examples/CMakeFiles/scl_test.dir/clean:
 examples/CMakeFiles/sdm18_test.dir/all: CMakeFiles/ydlidar_sdk.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/sdm18_test.dir/build.make examples/CMakeFiles/sdm18_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/sdm18_test.dir/build.make examples/CMakeFiles/sdm18_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=13,14 "Built target sdm18_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=15,16 "Built target sdm18_test"
 .PHONY : examples/CMakeFiles/sdm18_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -521,7 +558,7 @@ examples/CMakeFiles/sdm18_test.dir/clean:
 examples/CMakeFiles/sdm_test.dir/all: CMakeFiles/ydlidar_sdk.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/sdm_test.dir/build.make examples/CMakeFiles/sdm_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/sdm_test.dir/build.make examples/CMakeFiles/sdm_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=15,16 "Built target sdm_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=17,18 "Built target sdm_test"
 .PHONY : examples/CMakeFiles/sdm_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -547,7 +584,7 @@ examples/CMakeFiles/sdm_test.dir/clean:
 examples/CMakeFiles/tea_test.dir/all: CMakeFiles/ydlidar_sdk.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/tea_test.dir/build.make examples/CMakeFiles/tea_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/tea_test.dir/build.make examples/CMakeFiles/tea_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=17,18 "Built target tea_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=19,20 "Built target tea_test"
 .PHONY : examples/CMakeFiles/tea_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -573,7 +610,7 @@ examples/CMakeFiles/tea_test.dir/clean:
 examples/CMakeFiles/tia_test.dir/all: CMakeFiles/ydlidar_sdk.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/tia_test.dir/build.make examples/CMakeFiles/tia_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/tia_test.dir/build.make examples/CMakeFiles/tia_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=19,20 "Built target tia_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=21,22 "Built target tia_test"
 .PHONY : examples/CMakeFiles/tia_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -599,7 +636,7 @@ examples/CMakeFiles/tia_test.dir/clean:
 examples/CMakeFiles/tmini_test.dir/all: CMakeFiles/ydlidar_sdk.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/tmini_test.dir/build.make examples/CMakeFiles/tmini_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/tmini_test.dir/build.make examples/CMakeFiles/tmini_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=21,22 "Built target tmini_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=23,24 "Built target tmini_test"
 .PHONY : examples/CMakeFiles/tmini_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -625,7 +662,7 @@ examples/CMakeFiles/tmini_test.dir/clean:
 examples/CMakeFiles/tof_test.dir/all: CMakeFiles/ydlidar_sdk.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/tof_test.dir/build.make examples/CMakeFiles/tof_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/tof_test.dir/build.make examples/CMakeFiles/tof_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=23,24 "Built target tof_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=25,26 "Built target tof_test"
 .PHONY : examples/CMakeFiles/tof_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -651,7 +688,7 @@ examples/CMakeFiles/tof_test.dir/clean:
 examples/CMakeFiles/tri_and_gs_test.dir/all: CMakeFiles/ydlidar_sdk.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/tri_and_gs_test.dir/build.make examples/CMakeFiles/tri_and_gs_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/tri_and_gs_test.dir/build.make examples/CMakeFiles/tri_and_gs_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=25,26 "Built target tri_and_gs_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=27,28 "Built target tri_and_gs_test"
 .PHONY : examples/CMakeFiles/tri_and_gs_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -677,7 +714,7 @@ examples/CMakeFiles/tri_and_gs_test.dir/clean:
 examples/CMakeFiles/tri_restart.dir/all: CMakeFiles/ydlidar_sdk.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/tri_restart.dir/build.make examples/CMakeFiles/tri_restart.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/tri_restart.dir/build.make examples/CMakeFiles/tri_restart.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=27,28 "Built target tri_restart"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=29,30 "Built target tri_restart"
 .PHONY : examples/CMakeFiles/tri_restart.dir/all
 
 # Build rule for subdir invocation for target.
@@ -703,7 +740,7 @@ examples/CMakeFiles/tri_restart.dir/clean:
 examples/CMakeFiles/tri_test.dir/all: CMakeFiles/ydlidar_sdk.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/tri_test.dir/build.make examples/CMakeFiles/tri_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/tri_test.dir/build.make examples/CMakeFiles/tri_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=29,30 "Built target tri_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=31,32 "Built target tri_test"
 .PHONY : examples/CMakeFiles/tri_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -729,7 +766,7 @@ examples/CMakeFiles/tri_test.dir/clean:
 examples/CMakeFiles/lidar_c_api_test.dir/all: CMakeFiles/ydlidar_sdk.dir/all
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/lidar_c_api_test.dir/build.make examples/CMakeFiles/lidar_c_api_test.dir/depend
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/lidar_c_api_test.dir/build.make examples/CMakeFiles/lidar_c_api_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=9,10 "Built target lidar_c_api_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=11,12 "Built target lidar_c_api_test"
 .PHONY : examples/CMakeFiles/lidar_c_api_test.dir/all
 
 # Build rule for subdir invocation for target.
@@ -747,6 +784,59 @@ lidar_c_api_test: examples/CMakeFiles/lidar_c_api_test.dir/rule
 examples/CMakeFiles/lidar_c_api_test.dir/clean:
 	$(MAKE) $(MAKESILENT) -f examples/CMakeFiles/lidar_c_api_test.dir/build.make examples/CMakeFiles/lidar_c_api_test.dir/clean
 .PHONY : examples/CMakeFiles/lidar_c_api_test.dir/clean
+
+#=============================================================================
+# Target rules for target python/CMakeFiles/_ydlidar.dir
+
+# All Build rule for target.
+python/CMakeFiles/_ydlidar.dir/all: CMakeFiles/ydlidar_sdk.dir/all
+python/CMakeFiles/_ydlidar.dir/all: python/CMakeFiles/ydlidar_swig_compilation.dir/all
+	$(MAKE) $(MAKESILENT) -f python/CMakeFiles/_ydlidar.dir/build.make python/CMakeFiles/_ydlidar.dir/depend
+	$(MAKE) $(MAKESILENT) -f python/CMakeFiles/_ydlidar.dir/build.make python/CMakeFiles/_ydlidar.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=1,2 "Built target _ydlidar"
+.PHONY : python/CMakeFiles/_ydlidar.dir/all
+
+# Build rule for subdir invocation for target.
+python/CMakeFiles/_ydlidar.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles 24
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 python/CMakeFiles/_ydlidar.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles 0
+.PHONY : python/CMakeFiles/_ydlidar.dir/rule
+
+# Convenience name for target.
+_ydlidar: python/CMakeFiles/_ydlidar.dir/rule
+.PHONY : _ydlidar
+
+# clean rule for target.
+python/CMakeFiles/_ydlidar.dir/clean:
+	$(MAKE) $(MAKESILENT) -f python/CMakeFiles/_ydlidar.dir/build.make python/CMakeFiles/_ydlidar.dir/clean
+.PHONY : python/CMakeFiles/_ydlidar.dir/clean
+
+#=============================================================================
+# Target rules for target python/CMakeFiles/ydlidar_swig_compilation.dir
+
+# All Build rule for target.
+python/CMakeFiles/ydlidar_swig_compilation.dir/all:
+	$(MAKE) $(MAKESILENT) -f python/CMakeFiles/ydlidar_swig_compilation.dir/build.make python/CMakeFiles/ydlidar_swig_compilation.dir/depend
+	$(MAKE) $(MAKESILENT) -f python/CMakeFiles/ydlidar_swig_compilation.dir/build.make python/CMakeFiles/ydlidar_swig_compilation.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=54 "Built target ydlidar_swig_compilation"
+.PHONY : python/CMakeFiles/ydlidar_swig_compilation.dir/all
+
+# Build rule for subdir invocation for target.
+python/CMakeFiles/ydlidar_swig_compilation.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 python/CMakeFiles/ydlidar_swig_compilation.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles 0
+.PHONY : python/CMakeFiles/ydlidar_swig_compilation.dir/rule
+
+# Convenience name for target.
+ydlidar_swig_compilation: python/CMakeFiles/ydlidar_swig_compilation.dir/rule
+.PHONY : ydlidar_swig_compilation
+
+# clean rule for target.
+python/CMakeFiles/ydlidar_swig_compilation.dir/clean:
+	$(MAKE) $(MAKESILENT) -f python/CMakeFiles/ydlidar_swig_compilation.dir/build.make python/CMakeFiles/ydlidar_swig_compilation.dir/clean
+.PHONY : python/CMakeFiles/ydlidar_swig_compilation.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

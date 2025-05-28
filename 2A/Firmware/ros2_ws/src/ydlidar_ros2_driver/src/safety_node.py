@@ -28,7 +28,7 @@ class SafetyNode(Node):
         valid_ranges = [r for r in msg.ranges if r > 0 and r != float('inf')]
         
         # Count obstacles that are closer than 0.4m
-        close_obstacles = [r for r in valid_ranges if r < 0.4]
+        close_obstacles = [r for r in valid_ranges if r < 0.35]
         
         # Publish True if there are 10 or more obstacles close, False otherwise
         stop_msg = Bool()

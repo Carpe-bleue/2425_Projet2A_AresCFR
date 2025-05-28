@@ -1,4 +1,4 @@
-set(PACKAGE_VERSION "1.2.14")
+set(PACKAGE_VERSION "1.2.15")
 
 # Check build type is valid
 if( "System:${CMAKE_SYSTEM_NAME},Android:${ANDROID},iOS:${IOS}" STREQUAL

@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/carpe-bleue/ros2_ws/src/ydlidar_sdk
+# Source directory: /home/carpe-bleue/ros2_ws/src/YDLidar-SDK
 # Build directory: /home/carpe-bleue/ros2_ws/build/ydlidar_sdk
 # 
 # This file includes the relevant testing commands required for 
@@ -7,3 +7,4 @@
 subdirs("core")
 subdirs("src")
 subdirs("examples")
+subdirs("python")

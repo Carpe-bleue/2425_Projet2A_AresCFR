@@ -4,7 +4,7 @@
 # compile C with /usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/. -I/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core -I/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src -I/home/carpe-bleue/ros2_ws/src/ydlidar_sdk -I/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/.. -I/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples -I/home/carpe-bleue/ros2_ws/build/ydlidar_sdk
+C_INCLUDES = -I/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/. -I/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core -I/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src -I/home/carpe-bleue/ros2_ws/src/YDLidar-SDK -I/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/.. -I/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples -I/home/carpe-bleue/ros2_ws/build/ydlidar_sdk
 
 C_FLAGS = -fPIC -std=c++11
 

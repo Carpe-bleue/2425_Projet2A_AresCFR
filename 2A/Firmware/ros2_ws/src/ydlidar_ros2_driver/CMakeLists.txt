@@ -21,11 +21,16 @@ find_package(std_srvs REQUIRED)
 #find ydlidar_sdk package
 find_package(ydlidar_sdk REQUIRED)
 ############## YDLIDAR SDK END#####################################
+
+set(YDLIDAR_SDK_LIBRARY_DIRS /home/carpe-bleue/ros2_ws/install/ydlidar_sdk/lib)
+set(YDLIDAR_SDK_LIBRARIES ydlidar_sdk)
+
 #Include directories
 include_directories(
   ${PROJECT_SOURCE_DIR}
   ${PROJECT_SOURCE_DIR}/src
-  ${YDLIDAR_SDK_INCLUDE_DIRS})
+  /home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include
+)
 #link library directories
 link_directories(${YDLIDAR_SDK_LIBRARY_DIRS})
 

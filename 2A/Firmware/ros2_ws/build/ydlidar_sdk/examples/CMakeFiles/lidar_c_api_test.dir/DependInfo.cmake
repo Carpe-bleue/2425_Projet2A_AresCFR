@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/examples/lidar_c_api_test.c" "examples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o" "gcc" "examples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o.d"
+  "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/examples/lidar_c_api_test.c" "examples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o" "gcc" "examples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o.d"
   )
 
 # Targets to which this target links.

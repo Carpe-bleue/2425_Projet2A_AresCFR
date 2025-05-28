@@ -1,4 +1,4 @@
-# Install script for directory: /home/carpe-bleue/ros2_ws/src/ydlidar_sdk
+# Install script for directory: /home/carpe-bleue/ros2_ws/src/YDLidar-SDK
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -51,7 +51,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/base" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/base/datatype.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/base" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/base/datatype.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -63,7 +63,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/base" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/base/locker.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/base" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/base/locker.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -75,7 +75,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/base" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/base/thread.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/base" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/base/thread.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -87,7 +87,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/base" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/base/timer.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/base" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/base/timer.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -99,7 +99,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/base" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/base/typedef.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/base" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/base/typedef.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -111,7 +111,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/base" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/base/utils.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/base" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/base/utils.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -123,7 +123,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/base" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/base/v8stdint.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/base" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/base/v8stdint.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -135,7 +135,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/base" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/base/ydlidar.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/base" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/base/ydlidar.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -147,7 +147,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/common" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/common/ChannelDevice.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/common" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/common/ChannelDevice.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -159,7 +159,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/common" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/common/DriverInterface.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/common" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/common/DriverInterface.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -171,7 +171,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/common" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/common/ydlidar_datatype.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/common" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/common/ydlidar_datatype.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -183,7 +183,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/common" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/common/ydlidar_def.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/common" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/common/ydlidar_def.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -195,7 +195,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/common" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/common/ydlidar_help.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/common" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/common/ydlidar_help.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -207,7 +207,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/common" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/common/ydlidar_protocol.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/common" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/common/ydlidar_protocol.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -219,7 +219,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/json" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/json/cJSON.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/json" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/json/cJSON.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -231,7 +231,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/math" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/math/angles.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/math" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/math/angles.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -243,7 +243,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/network" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/network/ActiveSocket.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/network" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/network/ActiveSocket.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -255,7 +255,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/network" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/network/PassiveSocket.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/network" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/network/PassiveSocket.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -267,7 +267,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/network" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/network/SimpleSocket.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/network" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/network/SimpleSocket.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -279,7 +279,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/network" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/network/StatTimer.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/network" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/network/StatTimer.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -291,7 +291,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/serial" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/serial/common.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/serial" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/serial/common.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -303,7 +303,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/serial" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/serial/serial.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/serial" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/serial/serial.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -315,7 +315,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/serial/impl/unix/lock.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/serial/impl/unix/lock.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -327,7 +327,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/serial/impl/unix/unix.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/serial/impl/unix/unix.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -339,7 +339,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/serial/impl/unix/unix_serial.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/core/serial/impl/unix" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/serial/impl/unix/unix_serial.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -351,7 +351,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/CYdLidar.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/CYdLidar.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -363,7 +363,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/DTSLidarDriver.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/DTSLidarDriver.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -375,7 +375,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/ETLidarDriver.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/ETLidarDriver.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -387,7 +387,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/GSLidarDriver.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/GSLidarDriver.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -399,7 +399,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/SDMLidarDriver.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/SDMLidarDriver.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -411,7 +411,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/TiaLidarDriver.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/TiaLidarDriver.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -423,7 +423,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/YDlidarDriver.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/YDlidarDriver.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -435,7 +435,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/ydlidar_sdk.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/ydlidar_sdk.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -447,7 +447,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src/filters" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/filters/FilterInterface.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src/filters" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/filters/FilterInterface.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -459,7 +459,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src/filters" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/filters/NoiseFilter.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src/filters" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/filters/NoiseFilter.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -471,7 +471,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src/filters" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/src/filters/StrongLightFilter.h")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/include/src/filters" TYPE FILE FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/src/filters/StrongLightFilter.h")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -539,7 +539,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK" TYPE DIRECTORY FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/cmake/")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK" TYPE DIRECTORY FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/cmake/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -552,8 +552,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
   file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK" TYPE FILE FILES
-    "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/LICENSE.txt"
-    "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/README.md"
+    "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/LICENSE.txt"
+    "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/README.md"
     )
 endif()
 
@@ -566,11 +566,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   if(CMAKE_ERROR_ON_ABSOLUTE_INSTALL_DESTINATION)
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
-  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK" TYPE DIRECTORY FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/doc")
+  file(INSTALL DESTINATION "/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/share/YDLIDAR_SDK" TYPE DIRECTORY FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/doc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/startup" TYPE PROGRAM FILES "/home/carpe-bleue/ros2_ws/src/ydlidar_sdk/startup/initenv.sh")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/startup" TYPE PROGRAM FILES "/home/carpe-bleue/ros2_ws/src/YDLidar-SDK/startup/initenv.sh")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
@@ -578,6 +578,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/core/cmake_install.cmake")
   include("/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/src/cmake_install.cmake")
   include("/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples/cmake_install.cmake")
+  include("/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/python/cmake_install.cmake")
 
 endif()
 

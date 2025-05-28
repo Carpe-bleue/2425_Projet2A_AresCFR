@@ -1,4 +1,4 @@
-# Install script for directory: /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core
+# Install script for directory: /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

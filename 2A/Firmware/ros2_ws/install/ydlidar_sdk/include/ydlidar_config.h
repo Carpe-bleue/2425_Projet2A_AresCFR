@@ -23,6 +23,6 @@
 //
 #pragma once
 
-#define YDLIDAR_SDK_VERSION 1.2.14
-#define YDLIDAR_SDK_VERSION_STR "1.2.14"
+#define YDLIDAR_SDK_VERSION 1.2.15
+#define YDLIDAR_SDK_VERSION_STR "1.2.15"
 

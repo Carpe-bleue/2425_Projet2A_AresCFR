@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/carpe-bleue/ros2_ws/src/ydlidar_sdk
+CMAKE_SOURCE_DIR = /home/carpe-bleue/ros2_ws/src/YDLidar-SDK
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/carpe-bleue/ros2_ws/build/ydlidar_sdk
@@ -70,18 +70,18 @@ include examples/CMakeFiles/lidar_c_api_test.dir/progress.make
 include examples/CMakeFiles/lidar_c_api_test.dir/flags.make
 
 examples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o: examples/CMakeFiles/lidar_c_api_test.dir/flags.make
-examples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o: /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/examples/lidar_c_api_test.c
+examples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o: /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/examples/lidar_c_api_test.c
 examples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o: examples/CMakeFiles/lidar_c_api_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/carpe-bleue/ros2_ws/build/ydlidar_sdk/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object examples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o"
-	cd /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o -MF CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o.d -o CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o -c /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/examples/lidar_c_api_test.c
+	cd /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT examples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o -MF CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o.d -o CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.o -c /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/examples/lidar_c_api_test.c
 
 examples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.i"
-	cd /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/examples/lidar_c_api_test.c > CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.i
+	cd /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/examples/lidar_c_api_test.c > CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.i
 
 examples/CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.s"
-	cd /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/examples/lidar_c_api_test.c -o CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.s
+	cd /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/examples/lidar_c_api_test.c -o CMakeFiles/lidar_c_api_test.dir/lidar_c_api_test.c.s
 
 # Object files for target lidar_c_api_test
 lidar_c_api_test_OBJECTS = \
@@ -106,6 +106,6 @@ examples/CMakeFiles/lidar_c_api_test.dir/clean:
 .PHONY : examples/CMakeFiles/lidar_c_api_test.dir/clean
 
 examples/CMakeFiles/lidar_c_api_test.dir/depend:
-	cd /home/carpe-bleue/ros2_ws/build/ydlidar_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carpe-bleue/ros2_ws/src/ydlidar_sdk /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/examples /home/carpe-bleue/ros2_ws/build/ydlidar_sdk /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples/CMakeFiles/lidar_c_api_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/carpe-bleue/ros2_ws/build/ydlidar_sdk && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/carpe-bleue/ros2_ws/src/YDLidar-SDK /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/examples /home/carpe-bleue/ros2_ws/build/ydlidar_sdk /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples /home/carpe-bleue/ros2_ws/build/ydlidar_sdk/examples/CMakeFiles/lidar_c_api_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : examples/CMakeFiles/lidar_c_api_test.dir/depend
 

@@ -127,3 +127,14 @@
 /home/carpe-bleue/ros2_ws/install/ydlidar_sdk/bin/tri_restart
 /home/carpe-bleue/ros2_ws/install/ydlidar_sdk/bin/tri_test
 /home/carpe-bleue/ros2_ws/install/ydlidar_sdk/bin/lidar_c_api_test
+/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/lib/python3/dist-packages/_ydlidar.so
+/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/lib/python3/dist-packages/ydlidar.py
+/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/bin/etlidar_test.py
+/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/bin/gs_test.py
+/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/bin/plot_tof_test.py
+/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/bin/plot_ydlidar_test.py
+/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/bin/tea_test.py
+/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/bin/test.py
+/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/bin/tminiplus_test.py
+/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/bin/tof_test.py
+/home/carpe-bleue/ros2_ws/install/ydlidar_sdk/bin/tri_test.py

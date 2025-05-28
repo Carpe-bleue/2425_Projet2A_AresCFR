@@ -1,7 +1,7 @@
 CMakeFiles/ydlidar_sdk.dir/core/serial/impl/unix/lock.c.o: \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/serial/impl/unix/lock.c \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/serial/impl/unix/lock.c \
  /usr/include/stdc-predef.h \
- /home/carpe-bleue/ros2_ws/src/ydlidar_sdk/core/serial/impl/unix/lock.h \
+ /home/carpe-bleue/ros2_ws/src/YDLidar-SDK/core/serial/impl/unix/lock.h \
  /usr/include/linux/types.h /usr/include/aarch64-linux-gnu/asm/types.h \
  /usr/include/asm-generic/types.h /usr/include/asm-generic/int-ll64.h \
  /usr/include/aarch64-linux-gnu/asm/bitsperlong.h \

@@ -74,11 +74,14 @@ def getch_non_blocking():
 def interpret_key_command(key, node):
     command = list(node.active_command)
     if key == 'z':
-        command[0:10] = list("1009010115")
+        command[0:10] = list("1060010600")
     elif key == 'e':
-        command[0:10] = list("1012010120")
+        command[0:10] = list("1030010300")
+    elif key == 'w':
+        command[0:10] = list("1120011200")
+
     elif key == 'a':
-        command[0:10] = list("1020010200")
+        command[0:10] = list("1090010900")
     elif key == 's':
         command[0:10] = list("0008200100")
     elif key == 'w':
@@ -86,21 +89,24 @@ def interpret_key_command(key, node):
     elif key == 'q':
         command[0:10] = list("1015000000")
     elif key == 'd':
-        command[0:10] = list("0000010150")
+        command[0:10] = list("0000010420")
     elif key == 'r':
-        return "00000000000000000000000000"
+        command[0:10] = list("0000000000")
+    elif key == 'p':
+        command[25] = '1' if command[25] == '0' else '0'
+
     elif key == 'u':
-        command[10] = '1' if command[10] == '0' else '0'
-    elif key == 'i':
-        command[11] = '1' if command[11] == '0' else '0'
-    elif key == 'o':
-        command[12] = '1' if command[12] == '0' else '0'
-    elif key == 'j':
-        command[13] = '1' if command[13] == '0' else '0'
-    elif key == 'k':
-        command[14] = '1' if command[14] == '0' else '0'
-    elif key == 'l':
         command[15] = '1' if command[15] == '0' else '0'
+    elif key == 'i':
+        command[13] = '1' if command[13] == '0' else '0'
+    elif key == 'o':
+        command[14] = '1' if command[14] == '0' else '0'
+    elif key == 'j':
+        command[12] = '1' if command[12] == '0' else '0'
+    elif key == 'k':
+        command[10] = '1' if command[10] == '0' else '0'
+    elif key == 'l':
+        command[11] = '1' if command[11] == '0' else '0'
     elif key == 'f':
         for i in range(16, 22):
             command[i] = '1' if command[i] == '0' else '0'
@@ -130,12 +136,12 @@ def main(args=None):
     print(" - 'q': diagonal backward-left")
     print(" - 'd': diagonal backward-right")
     print(" - 'r': reset/stop")
-    print(" - 'u': toggle character 11")
-    print(" - 'i': toggle character 12")
-    print(" - 'o': toggle character 13")
-    print(" - 'j': toggle character 14")
-    print(" - 'k': toggle character 15")
-    print(" - 'l': toggle character 16")
+    print(" - 'u': toggle character 16")
+    print(" - 'i': toggle character 14")
+    print(" - 'o': toggle character 15")
+    print(" - 'j': toggle character 13")
+    print(" - 'k': toggle character 11")
+    print(" - 'l': toggle character 12")
     print(" - 'f': toggle characters 17 to 22")
     print(" - 'g': set character 23 to 0")
     print(" - 't': set character 23 to 1")
